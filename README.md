@@ -20,4 +20,5 @@ A list of vim commands and their summary.
 |^ (I change to (0))|Takes you to the beginning of the line|
 |diw|Deletes the entire word you are on, wherever you are within it|
 |`ci)`|Given you are on a `(` paren, or within one, this cuts everything within it, and puts you in insert mode|
-alkdjflk)adkfjlaj()adsfkj
+|`df(any character)` Ex: `df)`| This will deleted everything on the line from the cursor up to and including the next closing paren `)` it finds in the line|
+
