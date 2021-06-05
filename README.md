@@ -21,6 +21,8 @@ A list of vim commands and their summary.
 |`diw`|Deletes the entire word you are on, wherever you are within it|
 |`ci)`|Given you are on a `(` paren, or within one, this cuts everything within it, and puts you in insert mode|
 |`df(any character)` Ex: `df)`| This will deleted everything on the line from the cursor up to and including the next closing paren `)` it finds in the line|
+|`dt(any character)` Ex: `dt)`| This will deleted everything on the line from the cursor up to but <em>not</em> including the next closing paren `)` it finds in the line|
 |`f(any char)` Ex: `fb`| This will find the next `b` in the line. To keep going if there are multiple b's use the `;` command, which is conveniently where your pinkey rests|
 |`:?(string)` Ex: `:?Potato`| Searches the document for the string 'Potato' and puts the cursor on that line, searches above current line, and wraps back from the bottom|
+|`%` Ex: `function cool() { hello }` | If on a `{` will move to the other closing `}`, also works on `[`, `]`, `(`, `)`
 
